@@ -5,11 +5,11 @@ VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inventar-Verwaltung.ASP", "Inventar-Verwaltung.ASP\Inventar-Verwaltung.ASP.csproj", "{28103024-931C-4B5D-8B32-72CA793211ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventar-Verwaltung.BLL", "Inventar-Verwaltung.BLL\Inventar-Verwaltung.BLL.csproj", "{3250755C-E853-444A-8D8B-E5F16BE2AE15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inventar-Verwaltung.BLL", "Inventar-Verwaltung.BLL\Inventar-Verwaltung.BLL.csproj", "{3250755C-E853-444A-8D8B-E5F16BE2AE15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventar-Verwaltung.BLL.Test", "Inventar-Verwaltung.BLL.Test\Inventar-Verwaltung.BLL.Test.csproj", "{1491B3DE-5252-447A-B735-C69EA691BFCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inventar-Verwaltung.BLL.Test", "Inventar-Verwaltung.BLL.Test\Inventar-Verwaltung.BLL.Test.csproj", "{1491B3DE-5252-447A-B735-C69EA691BFCC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".circleci", ".circleci", "{D7A14DD2-CC6E-46D6-A652-093AB4417A47}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".circleci", ".circleci", "{F694C034-0442-44AD-8599-8654C5E316D5}"
 	ProjectSection(SolutionItems) = preProject
 		config.yml = config.yml
 	EndProjectSection

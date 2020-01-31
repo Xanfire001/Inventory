@@ -9,5 +9,4 @@ jobs:
        name: win/default
      steps:
        - checkout
-       - run: dotnet install
        - run: dotnet test

@@ -10,3 +10,5 @@ jobs:
      steps:
        - checkout
        - run: dotnet test ./Inventar-Verwaltung/Inventar-Verwaltung.sln
+     store_test_results:
+        path: test-results

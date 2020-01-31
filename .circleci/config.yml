@@ -4,25 +4,10 @@ orbs:
   win: circleci/windows@2.2.0
   
 jobs:
-  one:
-    build:
-      executor:
-        name: win/default
-    steps:
-      - checkout
-      - run: echo "A first hello"
-      - run: sleep 25
-  two:
-    build:
-      executor:
-        name: win/default
-    steps:
-      - checkout
-      - run: echo "A more familiar hi"
-      - run: sleep 15
-workflows:
-  version: 2
-  one_and_two:
-    jobs:
-      - one
-      - two
+   build:
+     executor:
+       name: win/default
+     steps:
+       - checkout
+       - run: echo "A first hello"
+       - run: sleep 25

@@ -1,11 +1,26 @@
+version: 2.1
+
 orbs:
-  win: circleci/windows@2.2.0 # The Windows orb give you everything you need to start using the Windows executor.
-
+  win: circleci/windows@2.2.0
+  
 jobs:
-  build: # name of your job
-    executor: win/default # executor type
-
+  one:
+    docker:
+      - image: win/default
     steps:
-      # Commands are run in a Windows virtual machine environment
       - checkout
-      - run: Write-Host 'Hello, Windows'
+      - run: echo "A first hello"
+      - run: sleep 25
+  two:
+    docker:
+      - image: win/default
+    steps:
+      - checkout
+      - run: echo "A more familiar hi"
+      - run: sleep 15
+workflows:
+  version: 2
+  one_and_two:
+    jobs:
+      - one
+      - two

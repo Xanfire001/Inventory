@@ -10,5 +10,6 @@ jobs:
      steps:
        - checkout
        - run: dotnet test ./Inventar-Verwaltung/Inventar-Verwaltung.sln
+       - run: md C:\test-results
        - store_test_results:
-            path: C:\Users\ac.HSGMBH\source\repos\Inventar-Verwaltung\test-results
+            path: /test-results
